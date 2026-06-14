@@ -57,7 +57,13 @@ Windows 10 VM  →  Splunk Universal Forwarder  →  Ubuntu Server VM (Splunk En
 | 4720 | User account created | Common persistence technique |
 
 
+### Screenshots
 
+#### Splunk dashboard — logs flowing
+![Splunk logs flowing](screenshots/splunk-logs-flowing.png)
+
+#### EventCode 4625 — failed login detected
+![Failed login detected](screenshots/eventcode-4625-detected.png)
 ---
 
 ## Tools & technologies
