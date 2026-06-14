@@ -18,11 +18,9 @@ with an Ubuntu Server SIEM host and a Windows 10 target machine.
 
 ---
 
-## Projects
-
 | # | Project | Status | Key Tools |
 |---|---------|--------|-----------|
-| 1 | [Home SIEM Lab — Splunk + Detection Rules](#project-1--home-siem-lab) | ✅ Complete | Splunk, Windows Event Logs, SPL |
+| 1 | [Home SIEM Lab — Splunk + Detection Rules](#project-1--home-siem-lab) | ✅ Complete | Splunk, Windows Event Logs, SPL, Atomic Red Team |
 | 2 | Incident Response Report | 🔄 In progress | MITRE ATT&CK, Any.run |
 | 3 | Threat Actor Profile — APT28 | 🔄 In progress | MITRE Navigator, OSINT |
 
@@ -191,7 +189,7 @@ was observed and caught by Rule 3:
 ![Scheduled task detection](screenshots/scheduled-task-detection.png)
 
 ### What I learned
-- Windows audit policies are off by default — enabling them 
+- Windows audit policies are off by default, enabling them 
   is a critical first step in any SOC deployment
 - Splunk's bucket and stats commands are the core of 
   threshold-based alerting
