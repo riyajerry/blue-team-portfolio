@@ -21,7 +21,7 @@ with an Ubuntu Server SIEM host and a Windows 10 target machine.
 | # | Project | Status | Key Tools |
 |---|---------|--------|-----------|
 | 1 | [Home SIEM Lab — Splunk + Detection Rules](#project-1--home-siem-lab) | ✅ Complete | Splunk, Windows Event Logs, SPL, Atomic Red Team |
-| 2 | Incident Response Report | 🔄 In progress | MITRE ATT&CK, Any.run |
+| 2 | [Incident Response Report — LockBit 2025](incident-response/README.md) | ✅ Complete | MITRE ATT&CK, The DFIR Report, IR methodology |
 | 3 | Threat Actor Profile — APT28 | 🔄 In progress | MITRE Navigator, OSINT |
 
 ---
